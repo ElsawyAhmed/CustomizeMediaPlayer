@@ -1,0 +1,39 @@
+#media-player{
+    position:relative;
+    width :60%;
+    height:60%;
+    margin:100px;
+}
+video, aside,  {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+aside{
+    z-index:10;
+}
+#fwd{
+    width:50px;
+    position:absolute;
+    top:100px;
+    left:500px;
+}
+#pause {
+    width: 50px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+#bkwd {
+    width: 50px;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+#media-controls {
+    position: absolute;
+    top:320px;
+    left: 10px;
+    display:inline-block;
+    width:70%;
+}
